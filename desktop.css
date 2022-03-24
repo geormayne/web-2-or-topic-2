@@ -1,0 +1,35 @@
+body {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "nav"
+    "header"
+    "main";
+}
+
+header {
+    background-color: purple;
+    color: white;
+    padding: 20px;
+    grid-area: header;
+}
+
+nav {
+    background-color: skyblue;
+    grid-area: nav;
+}
+
+main {
+    background-color: khaki;
+    color: gold;
+    grid-area: main;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+main img {
+    height: 20em;
+    width: 20em;
+}
