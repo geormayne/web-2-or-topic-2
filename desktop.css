@@ -7,8 +7,10 @@ body {
     "header"
     "main";
 }
+.on, .off { display: none;
+}
 
-header {
+header { 
     background-color: purple;
     color: white;
     padding: 20px;
