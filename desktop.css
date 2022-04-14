@@ -6,12 +6,17 @@ body {
     "nav"
     "header"
     "main";
+    background-image: url('bkimage.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
 }
 .on, .off { display: none;
+    
 }
 
 header { 
-    background-color: purple;
+    background-color:darkblue;
     color: white;
     padding: 20px;
     grid-area: header;
@@ -23,8 +28,8 @@ nav {
 }
 
 main {
-    background-color: khaki;
-    color: gold;
+    background-color: greenyellow;
+    color: black;
     grid-area: main;
     display: flex;
     justify-content:center;

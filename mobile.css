@@ -10,8 +10,15 @@ body {
     grid-template-areas:
         "header"
         "nav"
-        "main"
+        "main";
+    /*background-image: url('bkimage.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    background-repeat: no-repeat;
+}
 
+main img {
+    width: 90%;
 }
 
 header {
